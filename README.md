@@ -16,7 +16,7 @@ The supported algorithms are FedAvg over active clients (fedavg), FedAvg over al
 The supported datasets are SVHN (svhn), CIFAR10 (cifar10) and CINIC10 (cinic10).
 
 ### Implementation examples:
-python -m main --method fedavg --lr 0.05 --fluctuate 1 --dataset cifar10 --seeds 3,4,6
+python -m main --method fedavg --lr 0.05 --fluctuate 1 --dataset cifar10 --seeds 3,4,6 \
 python -m main --method fedawe --lr 0.1 --fluctuate 1 --dataset cifar10 --seeds 3,4,6
 
 ### Unavailability dynamics:
